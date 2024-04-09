@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app">
+    <div class="q-Box">
+        <div class="q-text">
+        <h2 id="questions">What's is your Name?</h2>
+        <div class="answers">
+            <input type="text" id="usarName" placeholder="Enter Your Name Here" onpaste="restrict(this);" onkeypress="restrict(this);" onkeyup="restrict(this);">
+            <input type="submit" text="Submit" id="submitBtn">
+            <button id="nextBtn" style="display: none;" onclick="addQuest()">Next</button>
+        </div>
+        <div class="q-contaner " id="nextAnswers" style="display: none;">
+            <div id="answerA" class="q-btn"></div>
+            <div id="answerB" class="q-btn"></div>
+            <div id="answerC" class="q-btn"></div>
+        </div>
+        </div>
+    </div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>

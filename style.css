@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: #2e2e2e;
+}
+.app{
+background: #fff;
+width: 90%;
+max-width: 600px;
+margin: 100px auto 0;
+border-radius: 10px;
+padding: 30px;
+}
+
+.q-Box{
+    padding: 20px 0;
+}
+.q-Box div{
+    font-size: 18px;
+    color: #2e2e2e;
+    font-weight: 600;
+}
+#usarName{
+    background: #fff;
+    color: #222;
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid #222;
+    padding: 30px;
+    margin: 10px 0;
+    border-radius: 4px;
+    text-align: left;
+    transition: all 0.3s;
+    font-size: 22px;
+}
+.q-btn{
+    background: #fff;
+    color: #222;
+    font-weight: 500;
+    width: 40%;
+    border: 1px solid #222;
+    padding: 30px;
+    margin: 10px 0;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-size: 22px;
+}
+.q-btn:hover{
+background: #222;
+color: #fff;
+font-size: 28px;
+}
+#submitBtn{
+    background: #2e2e2e;
+    color: #fff;
+    font-weight: 500;
+    width: 100px;
+    height: 50px;
+    border: 0;
+    margin: 20px auto 0;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.3s;
+    display: block;
+}
+#submitBtn:hover{
+    background: #7a7777;
+    font-size: 22px;}
+#nextBtn{
+    background: #2e2e2e;
+    color: #fff;
+    font-weight: 500;
+    width: 100px;
+    height: 50px;
+    border: 0;
+    margin: 20px auto 0;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.3s;
+
+}
+#nextBtn:hover{
+    font-size: 22px;
+}
